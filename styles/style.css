@@ -418,3 +418,47 @@ header{
     display: flex;
     gap: 0.5rem;
 }
+
+footer{
+    background-image: url('../images/footer-bg.png');
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    height: 412px;
+    margin: 0 auto;
+}
+
+.footer-container{
+    padding: 7.5rem 30.9375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container img{
+    margin-bottom: 2rem;
+}
+
+
+.footer-icons{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.spotify{
+    display: flex;
+    gap: 0.5rem;
+}
+.spotify p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    opacity: 60%;
+}
+
+.copy-right{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #FAFAFA;
+    opacity: 60%;
+}
