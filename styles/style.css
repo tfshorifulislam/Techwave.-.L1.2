@@ -78,3 +78,50 @@ header{
     opacity: 90%;
 }
 
+.hero{
+    background-image: url('../images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;
+    height: 760px;
+    margin: 0 auto;
+}
+
+.hero-container{
+    padding: 101px 525px;
+
+}
+
+.hero-circle-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.badge{
+    background-color: #F7E93F;
+    font-size: 1rem;
+    border-radius: 10000px;
+    position: absolute;
+    z-index: 2;
+    padding: 10px 15px;
+    margin-top: -300px;
+    margin-right: -200px;
+    
+    
+}
+.circle-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.microphone{
+    position: absolute;
+    z-index: 3;
+}
+
+.hero-title{
+    text-align: center;
+}
