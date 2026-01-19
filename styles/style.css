@@ -102,6 +102,8 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1600px;
+    width: 100%;
+    background-size: cover;
     height: 760px;
     margin: 0 auto;
 }
