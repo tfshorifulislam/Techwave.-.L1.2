@@ -227,13 +227,17 @@ header{
     opacity: 80%;
 }
 
-
+/* choose related style */
 
 .choose{
     background-color: #230E3D;
     padding: 7.5rem 12.5rem;
 }
 
+.choose-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .choose-heading{
     font-size: 3rem;
     text-align: center;
@@ -251,7 +255,7 @@ header{
 
 .choose-card-info{
     background-color: rgba(53, 17, 101, 0.4);
-    padding: 40px;
+    /* padding: 40px; */
     border-radius: 2.5rem;
 }
 
@@ -286,15 +290,87 @@ header{
 .mobile{
     grid-column: span 2;
     /* grid-row: span 2; */
+    padding: 2.5rem;
 }
 
 .global{
     grid-column: span 2;
     /* grid-row: span 2; */
+    padding: 2.5rem;
 }
 
 
 .exclusive{
     grid-column: span 2;
     /* grid-row: span 2; */
+    padding: 2.5rem;
+}
+
+.resources{
+    padding: 2.5rem;
+}
+
+.feature{
+    background-color: #1A0B2E;
+    padding: 7.5rem 12.5rem;
+}
+
+.feature-container{
+    margin: 0 auto;
+    
+}
+
+.feature-heading{
+    text-align: center;
+    font-size:3rem ;
+    font-weight:700 ;
+    color:white ;
+    margin-bottom: 2.5rem;
+}
+
+.feature-card{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 30px;
+}
+
+.feature-card-item{
+    background-color: #250D44;
+    border-radius: 1.5rem;
+}
+
+.feature-card-item iframe{
+    border-radius: 1.5rem 1.5rem  0 0;
+}
+
+.feature-card-item h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    padding:1.5rem 1.5rem 0.75rem 1.5rem ;
+}
+
+.feature-card-item p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: white;
+    padding:0 1.5rem 0.75rem 1.5rem ;
+    opacity: 60%;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding:0 1.5rem 0.75rem 1.5rem ;
+}
+
+.time h4{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: #00FF88;
+
 }
