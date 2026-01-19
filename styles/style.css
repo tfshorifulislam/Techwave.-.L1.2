@@ -98,15 +98,17 @@ header{
     align-items: center;
 }
 .badge{
-    background-color: #F7E93F;
-    font-size: 1rem;
+    background-color: #00FF88;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1A0B2E;
     border-radius: 10000px;
     position: absolute;
     z-index: 2;
-    padding: 10px 15px;
+    padding: 0.5rem 1rem;
     margin-top: -300px;
     margin-right: -200px;
-    
+    box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
     
 }
 .circle-img{
@@ -124,4 +126,20 @@ header{
 
 .hero-title{
     text-align: center;
+    margin-top: 2.5rem;
+}
+
+.hero-heading{
+    font-size:3.75rem ;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+
+.hero-description{
+    font-size:1rem ;
+    color: white;
+    margin-bottom: 1.5rem;
+    opacity: 80%;
 }
