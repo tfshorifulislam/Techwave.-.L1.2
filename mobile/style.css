@@ -1,0 +1,44 @@
+@media screen and (max-width:576px){
+    
+
+/* Navbar related Style */
+header{
+    padding: 1.125rem 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.brand{
+    width: 137px;
+}
+.navbar .primary-btn{
+    display: none;
+}
+.menu{
+    display: none;
+}
+
+.bars{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+/* hero related style */
+.hero{
+    background-image: url('../images/mb.png');
+}
+
+.hero-container{
+    padding:40px 20px;
+
+}
+
+
+
+}

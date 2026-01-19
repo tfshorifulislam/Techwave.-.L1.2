@@ -17,6 +17,9 @@
     background-color: #1A0B2E;
 }
 
+.bars{
+    display: none;
+}
 /* shared style */
 .primary-btn{
     border: none;
@@ -96,11 +99,10 @@ header{
     line-height: 120%;
     opacity: 90%;
 }
-
+/* hero related style */
 .hero{
     background-image: url('../images/hero-bg.png');
     background-repeat: no-repeat;
-    background-size: cover;
     max-width: 1600px;
     width: 100%;
     background-size: cover;
