@@ -310,13 +310,17 @@ header{
     padding: 2.5rem;
 }
 
+
+/* Feature related style */
 .feature{
     background-color: #1A0B2E;
     padding: 7.5rem 12.5rem;
+
 }
 
 .feature-container{
     margin: 0 auto;
+    max-width: 1200px;
     
 }
 
@@ -334,15 +338,18 @@ header{
     margin: 0 auto;
     max-width: 1200px;
     gap: 30px;
+
 }
 
 .feature-card-item{
     background-color: #250D44;
     border-radius: 1.5rem;
+    max-width: 350px;
 }
 
 .feature-card-item iframe{
     border-radius: 1.5rem 1.5rem  0 0;
+    max-width: 350px;
 }
 
 .feature-card-item h3{
@@ -373,4 +380,41 @@ header{
     font-weight: 600;
     color: #00FF88;
 
+}
+
+.host-heading{
+    margin-top: 7.5rem;
+    margin-top: 2.5rem;
+}
+
+.host-details{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.host-info h4{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.host-info p{
+    font-size: 1rem;
+    color: white;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    opacity: 60%;
+}
+
+.icons{
+    display: flex;
+    gap: 0.5rem;
 }
