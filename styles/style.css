@@ -13,100 +13,68 @@
 }
 
 
-body{
+.bg-color{
     background-color: #1A0B2E;
 }
 
-.flex{
+/* shared style */
+.primary-btn{
+    border: none;
+    border-radius: 10000px;
+    padding: 0.75rem 1rem;
+    font-size:1rem ;
+    font-weight:600 ;
+    color:white ;
+    background: linear-gradient(35deg,#F7E93F 10%, #FB09B4 51%, #9100F8 100% );
     display: flex;
+    align-items: center;
+    gap: 4px;
+
 }
 
 .margin{
     margin: 0 auto;
 }
 
-.primary-btn{
-    padding: 0.75rem 1rem;
-    font-size: 1rem;
-    font-weight: 600;
-    color: white;
-    border: none;
-    border-radius:10000px;
-    background: linear-gradient(25deg, rgba(247, 233, 63, 1)15%,rgba(251, 9, 180, 1)50%,rgba(145, 0, 248, 1)100%);
-    cursor: pointer;
-    align-items: center;
-    gap: 4px;
+.flex{
+    display: flex;
 }
 
+.center{
+    justify-content: center;
+}
+
+/* main style */
 
 
-
-/* navbar related style */
-
+/* Navbar related Style */
 header{
+    background-color: #1A0B2E;
     padding: 1.5rem 12.5rem;
-    border-bottom: 0.5px solid #6a00ff;
+    border-bottom: 1px solid #412567;
 }
 .navbar{
-    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
     justify-content: space-between;
-    background-color: #1A0B2E;
+    max-width: 1200px;
 }
 
 .menu{
     list-style: none;
-    gap: 2rem;
+    display: flex;
     align-items: center;
 }
-
+.menu-list{
+    display: flex;
+    gap: 2rem;
+}
 .menu-item{
     text-decoration: none;
-    font-size: 1rem;
-    color:white ;
+    font-size:1rem ;
     font-weight:500 ;
+    color: #FFFFFF;
+    line-height: 120%;
     opacity: 90%;
 }
 
-
-/* hero related style */
-.hero{
-    background-image: url('../images/hero-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 760px;
-    justify-content: center;
-}
-.hero-container{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.circle-img{
-    position: absolute;
-    z-index: 1;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.microphone-img{
-    position: relative;
-    z-index: 2;
-}
-
-.new-badge{
-    position: absolute;
-    margin-top: -300px;
-    margin-right: -200px;
-    z-index: 5;
-    justify-content: flex-end;
-    font-size: 1.125rem;
-    font-weight: 600;
-    color: #1A0B2E;
-    background-color: #00FF88;
-    border-radius:1000px;
-    padding: 8px 16px;
-    box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
-}
