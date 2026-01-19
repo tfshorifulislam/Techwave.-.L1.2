@@ -277,6 +277,7 @@ header{
 }
 
 .headphone{
+    padding: 6.75rem 2.5rem;
     grid-column: span 1;
     grid-row: span 2;
 }
