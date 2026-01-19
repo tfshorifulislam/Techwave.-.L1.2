@@ -77,19 +77,15 @@ header{
     border-bottom: 1px solid #412567;
 }
 .navbar{
-    display: flex;
-    margin: 0 auto;
     justify-content: space-between;
     max-width: 1200px;
 }
 
 .menu{
     list-style: none;
-    display: flex;
     align-items: center;
 }
 .menu-list{
-    display: flex;
     gap: 2rem;
 }
 .menu-item{
@@ -116,8 +112,6 @@ header{
 }
 
 .hero-circle-img{
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 .badge{
@@ -132,14 +126,15 @@ header{
     margin-top: -300px;
     margin-right: -200px;
     box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
+    transition:  0.5s ease-in-out;
+    animation: small 2s infinite;
     
 }
 .circle-img{
-    display: flex;
-    justify-content: center;
     align-items: center;
     position: relative;
     z-index: 1;
+    transform: rotate(360deg, 1s infinity);
 }
 
 .microphone{
@@ -168,8 +163,6 @@ header{
 }
 
 .action-btn{
-    display: flex;
-    justify-content: center;
     gap: 0.5rem;
 }
 
@@ -200,11 +193,9 @@ header{
     padding-bottom: 5rem ;
     opacity: 80%;
     max-width: 50rem;
-    margin: 0 auto;
 }
 
 .podcast-info{
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
@@ -236,7 +227,6 @@ header{
 
 .choose-content{
     max-width: 1200px;
-    margin: 0 auto;
 }
 .choose-heading{
     font-size: 3rem;
@@ -289,20 +279,17 @@ header{
 
 .mobile{
     grid-column: span 2;
-    /* grid-row: span 2; */
     padding: 2.5rem;
 }
 
 .global{
     grid-column: span 2;
-    /* grid-row: span 2; */
     padding: 2.5rem;
 }
 
 
 .exclusive{
     grid-column: span 2;
-    /* grid-row: span 2; */
     padding: 2.5rem;
 }
 
@@ -319,7 +306,6 @@ header{
 }
 
 .feature-container{
-    margin: 0 auto;
     max-width: 1200px;
     
 }
@@ -333,8 +319,6 @@ header{
 }
 
 .feature-card{
-    display: flex;
-    justify-content: center;
     margin: 0 auto;
     max-width: 1200px;
     gap: 30px;
@@ -368,7 +352,6 @@ header{
 }
 
 .time{
-    display: flex;
     align-items: center;
     gap: 6px;
     padding:0 1.5rem 0.75rem 1.5rem ;
@@ -391,9 +374,7 @@ header{
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 2.5rem;
     max-width: 1200px;
-    margin: 0 auto;
     padding: 2.5rem;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1.5rem;
@@ -419,19 +400,18 @@ header{
     gap: 0.5rem;
 }
 
+
+/* footer related style */
 footer{
     background-image: url('../images/footer-bg.png');
     background-repeat: no-repeat;
     max-width: 1600px;
     height: 412px;
-    margin: 0 auto;
 }
 
 .footer-container{
     padding: 7.5rem 30.9375rem;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -446,7 +426,6 @@ footer{
 }
 
 .spotify{
-    display: flex;
     gap: 0.5rem;
 }
 .spotify p{
@@ -461,4 +440,27 @@ footer{
     line-height: 1.5rem;
     color: #FAFAFA;
     opacity: 60%;
+}
+
+
+/* Animation Add */
+.rotated-animation{
+    animation: rotate 6s linear infinite;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes small {
+    0%{transform: scale(0.75);}
+    50%{transform: scale(1);}
+    100%{transform: scale(0.75);}
+    
 }
