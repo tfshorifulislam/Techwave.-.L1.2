@@ -226,3 +226,74 @@ header{
     color: white;
     opacity: 80%;
 }
+
+
+
+.choose{
+    background-color: #230E3D;
+    padding: 7.5rem 12.5rem;
+}
+
+.choose-heading{
+    font-size: 3rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+.choose-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.88rem;
+}
+
+.choose-card-info{
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    border-radius: 2.5rem;
+}
+
+.choose-card-info img{
+    margin-bottom: 1rem;
+    max-width: 3.75rem;
+}
+
+
+.choose-card-info h3{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+
+.choose-card-info p{
+    font-size: 1rem;
+    color: white;
+    line-height: 1.5rem;
+    opacity:60%;
+}
+
+.headphone{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+
+.mobile{
+    grid-column: span 2;
+    /* grid-row: span 2; */
+}
+
+.global{
+    grid-column: span 2;
+    /* grid-row: span 2; */
+}
+
+
+.exclusive{
+    grid-column: span 2;
+    /* grid-row: span 2; */
+}
