@@ -27,9 +27,30 @@
     color:white ;
     background: linear-gradient(35deg,#F7E93F 10%, #FB09B4 51%, #9100F8 100% );
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 4px;
+    gap: 8px;
 
+}
+
+
+.secondary-btn{
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    padding: 0.75rem 1.25rem;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00FF88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.btn-img{
+    vertical-align: middle;
 }
 
 .margin{
@@ -143,3 +164,10 @@ header{
     margin-bottom: 1.5rem;
     opacity: 80%;
 }
+
+.action-btn{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
