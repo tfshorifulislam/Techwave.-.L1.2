@@ -30,6 +30,7 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
 
 }
 
@@ -46,6 +47,7 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
 }
 
 
@@ -171,3 +173,56 @@ header{
     gap: 0.5rem;
 }
 
+
+/* Podcast related style */
+.podcast{
+    background-color: #1A0B2E;
+    padding: 3.125rem 12.5rem 7.5rem 12.5rem;
+    text-align: center;
+}
+
+.podcast-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.podcast-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.podcast-description{
+    font-size:1rem ;
+    line-height: 1.5rem;
+    color:white ;
+    padding-bottom: 5rem ;
+    opacity: 80%;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.podcast-info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.bottom-line{
+    opacity: 10%;
+    margin-bottom: 5rem;
+}
+
+.podcast-info-details h3{
+    font-size: 3rem;
+    color: #00FF88;
+    margin: 1rem;
+}
+
+.podcast-info-details p{
+    font-size: 1rem;
+    line-height: 1.25;
+    color: white;
+    opacity: 80%;
+}
