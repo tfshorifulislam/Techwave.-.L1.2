@@ -162,4 +162,16 @@ header{
 }
 
 
+/* footer related style */
+footer{
+    background-image: url('../images/footer\ bg\ f.png');
+    width: 100%;
+    height: auto;
+}
+
+.footer-container{
+    padding: 5rem 5rem;
+}
+
+
 }
