@@ -1,6 +1,5 @@
-@media screen and (min-width:1201px) and (max-width:1440px) {
+@media screen and (min-width:1201px) and (max-width:1442px) {
 
-/* Navbar related Style */
 
 /* hero related style */
 
@@ -9,22 +8,45 @@
     background-image: url('../images/1440\ bg.png');
     width: 100%;
     height:auto;
-
+}
 
 
 .hero-container{
     padding: 1rem;
 
 }
+
+
 .footer-container{
-    padding: 5rem 2rem;
+    padding: 8rem 2rem;
 
 }
 
-footer{
-    height: auto;
+
+
+
+
+
+
+
+.footer-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-logo{
+    width: 210px;
+}
+
+
+
+.copy-right{
+    font-size: 0.75rem;
 }
 
 }
+
 
 
