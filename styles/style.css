@@ -356,8 +356,6 @@ header{
 .i-frame-btn{
     position: absolute;
     z-index: 2;
-    /* margin-top: -200px;
-    margin-left: 140px; */
     top: 20%;
     left: 40%;
     cursor: pointer;
