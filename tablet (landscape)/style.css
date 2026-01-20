@@ -1,4 +1,4 @@
-@media screen and (min-width:577px) and (max-width:768px) {
+@media screen and (min-width:578px) and (max-width:992px) {
     
     
 /* Navbar related Style */
@@ -156,7 +156,7 @@ header{
 
 
 .i-frame-btn{
-    top: 30%;
+    top: 35%;
     left: 45%;
 
 }
