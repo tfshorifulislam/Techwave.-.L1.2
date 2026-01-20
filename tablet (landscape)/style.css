@@ -199,25 +199,16 @@ header{
 
 /* footer related style */
 footer{
-    background-image: url('../images/bg\ footer-mobile.png');
-    vertical-align: middle;
-    margin: 0 auto;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    background-size: cover;
+    background-image: url('../images/footer-img-992.png');
+    max-width: 992px;
     width: 100%;
+    height: auto;
 }
 
 .footer-container{
     padding: 2rem 1.25rem;
 
 }
-
-.footer-container img{
-    margin-bottom: 1.5rem;
-}
-
 
 .footer-icons{
     display: flex;
@@ -236,5 +227,7 @@ footer{
     font-size: 0.75rem;
 }
 
-
 }
+
+
+
