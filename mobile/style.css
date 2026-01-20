@@ -163,14 +163,48 @@ header{
     text-align: center;
 }
 
-
-
-
-
 .icons{
     display: flex;
     justify-content: center;
     gap: 0.5rem;
+}
+
+/* footer related style */
+footer{
+    background-image: url('../images/bg\ footer-mobile.png');
+    vertical-align: middle;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.footer-container{
+    padding: 2rem 1.25rem;
+
+}
+
+.footer-container img{
+    margin-bottom: 1.5rem;
+}
+
+
+.footer-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-logo{
+    width: 210px;
+}
+
+
+
+.copy-right{
+    font-size: 0.75rem;
 }
 
 
