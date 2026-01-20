@@ -88,6 +88,14 @@ header{
     z-index: 3;
 }
 
+
+.hero{
+    background-image: url('../images/hero-img-1200.png');
+    width: 100%;
+    height:auto;
+}
+
+
 .hero-title{
     text-align: center;
     margin-top: 2.5rem;
@@ -175,3 +183,4 @@ footer{
 
 
 }
+
