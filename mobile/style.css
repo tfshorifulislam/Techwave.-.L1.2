@@ -178,6 +178,7 @@ footer{
     display: flex;
     align-items: center;
     background-size: cover;
+    width: 100%;
 }
 
 .footer-container{
