@@ -13,7 +13,7 @@ header{
     padding-left: 20px;
 }
 .brand{
-    width: 137px;
+    width: 100%;
 }
 .navbar .primary-btn{
     display: none;
@@ -37,6 +37,17 @@ header{
 .hero-container{
     padding:40px 20px;
 
+}
+
+.hero-circle-img{
+    overflow:hidden;
+}
+
+.action-btn .primary-btn{
+    font-size:0.75rem ;
+}
+.action-btn .secondary-btn{
+    font-size:0.75rem ;
 }
 
 /* Podcast related style */
@@ -124,6 +135,7 @@ header{
 .feature-card{
     flex-direction: column;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 
@@ -131,9 +143,16 @@ header{
 
 .feature-card-item{
     border-radius: 1rem;
-    width: 400px;
+    width: 100%;
+    max-width: 100%;
 }
 
+.feature-card-item iframe{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
 
 .feature-card-item h3{
     font-size: 1.25rem;
