@@ -31,7 +31,7 @@ header{
 
 /* hero related style */
 .hero{
-    background-image: url('../images/mb.png');
+    background-image: url('../images/hero-bg.png');
 }
 
 .hero-container{
@@ -190,7 +190,7 @@ header{
 
 /* footer related style */
 footer{
-    background-image: url('../images/bg\ footer-mobile.png');
+    background-image: url('../images/mobile\ footer\ bg.png');
     vertical-align: middle;
     margin: 0 auto;
     justify-content: center;
@@ -198,6 +198,7 @@ footer{
     align-items: center;
     background-size: cover;
     width: 100%;
+    height: auto;
 }
 
 .footer-container{
