@@ -1,71 +1,16 @@
 @media screen and (min-width:993px) and (max-width:1200px) {
 
 
-/* shared style */
-.primary-btn{
-    border: none;
-    border-radius: 10000px;
-    padding: 0.75rem 1rem;
-    font-size:1rem ;
-    font-weight:600 ;
-    color:white ;
-    background: linear-gradient(35deg,#F7E93F 10%, #FB09B4 51%, #9100F8 100% );
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
-
-
-}
-
-.primary-btn:hover{
-    background:#9100F8;
-}
-
-.secondary-btn{
-    border: 1px solid #00FF88;
-    border-radius: 10000px;
-    padding: 0.75rem 1.25rem;
-    background-color: transparent;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #00FF88;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
-}
-
-.secondary-btn:hover{
-    background-color: #9100F8;
-    border: 1px solid transparent;
-}
-
-.btn-img{
-    vertical-align: middle;
-}
-
-.margin{
-    margin: 0 auto;
-}
-
-.flex{
-    display: flex;
-}
-
-.center{
-    justify-content: center;
-}
-
-/* main style */
-
 
 /* Navbar related Style */
+
 header{
-    padding: 1rem 1rem;
+   
+    padding: 1rem;
 }
+
+
+
 
 
 /* hero related style */

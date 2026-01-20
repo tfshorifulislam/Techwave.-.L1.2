@@ -11,19 +11,20 @@ header{
     width: 100%;
     padding-right: 20px;
     padding-left: 20px;
-}
-.brand{
-    width: 100%;
-}
-.navbar .primary-btn{
-    display: none;
-}
-.menu{
-    display: none;
+    justify-content: space-between;
 }
 
+
+/* .navbar .primary-btn{
+    display: none;
+} */
+/* .menu{
+    display: none;
+} */
+
 .bars{
-    display: flex;
+    /* display: flex; */
+    display: none;
     align-items: center;
     color: white;
     font-size: 24px;
@@ -210,6 +211,9 @@ footer{
 
 }
 
+}
+
+
 .footer-icons{
     display: flex;
     flex-wrap: wrap;
@@ -226,8 +230,4 @@ footer{
 .copy-right{
     font-size: 0.75rem;
 }
-
-}
-
-
 
